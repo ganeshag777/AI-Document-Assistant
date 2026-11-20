@@ -1,4 +1,8 @@
 import streamlit as st
+
+st.title("AI Document Assistant")
+st.success("Application started successfully!")
+
 import extractfiles as ex
 import generatecontent as gc
 from pypdf import PdfReader
